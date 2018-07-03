@@ -19,6 +19,7 @@ pipeline {
 	stage('Deliver') { 
             steps {
                 bat 'dir' 
+		bat 'echo work complete'
             }
         }
     }
