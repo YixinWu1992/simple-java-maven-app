@@ -19,7 +19,7 @@ pipeline {
 	stage('Deliver') { 
             steps {
                 bat 'dir' 
-		bat 'echo work complete for test!!!'
+		bat 'echo work complete for testing'
             }
         }
     }
