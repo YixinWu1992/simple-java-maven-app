@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Build') { 
             steps {
-                bat 'echo Hello world I am Yixin Wu' 
+                bat 'echo Hello world I am Gongyan Chen' 
             }
         }
 	stage('Test') { 
